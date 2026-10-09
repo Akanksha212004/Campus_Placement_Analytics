@@ -1,0 +1,21 @@
+# secrets
+.env
+*.key
+
+# generated database
+data/*.db
+*.sqlite
+*.sqlite3
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
