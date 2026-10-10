@@ -1,0 +1,625 @@
+student_id,name,branch,cgpa,active_backlogs
+S0115,Student 0115,Information Technology,7.19,2
+S0169 ,Student 0169,Electronics & Communication,,0
+S0359,Student 0359,CIVIL,7.84,2
+S0519,Student 0519,CIVIL,6.31,0
+S0561,Student 0561,MECH,7.85,
+S0066,Student 0066,MECH,9.2,0
+S0417,Student 0417,Civil,6.91,0
+S0507,Student 0507,Mechanical Engineering,6.0,0
+S0576,Student 0576,Electrical and Electronics,6.23,3
+S0211,Student 0211,CSE,7.27,0
+S0383,Student 0383,MECH,8.97,4
+S0578,Student 0578,CSE,5.38,4
+S0040,Student 0040,Civil Engineering,7.23,2
+S0053,Student 0053,ECE,5.65,4
+S0299,Student 0299,C.S.E,-1,0
+S0153,Student 0153,MECH,9.66,two
+S0020,Student 0020,IT,8.62,2
+S0141,Student 0141,MECH,5.81,0
+S0178,Student 0178,ECE,5.71,3
+S0252,Student 0252,MECH,N/A,0
+ s0352,Student 0352,IT,7.37,1
+S0559,Student 0559,CIVIL,8.14,0
+S0104,Student 0104,MECH,5.82,0
+S0593,Student 0593,CIVIL,9.31,0
+S0580,Student 0580,Electronics & Communication,5.84,0
+S0139,Student 0139,MECH,,0
+S0107,Student 0107,CSE,11.5,0
+S0386,Student 0386,IT,6.53,0
+S0555,Student 0555,eee,8.03,0
+S0379,Student 0379,MECH,6.8,0
+S0596,Student 0596,it,6.51,0
+S0163,Student 0163,CSE,6.71,4
+S0366,Student 0366,ECE,7.61,0
+S0187,Student 0187,??,7.79,0
+S0485,Student 0485,Mech,6.35,0
+S0468,Student 0468,ECE,6.03,0
+S0320,Student 0320,CSE,8.08,
+S0137,Student 0137,Information Technology,7.24,4
+S0009,Student 0009,CIVIL,6.97,0
+S0553,Student 0553,Electrical,8.59,0
+S0419,Student 0419,ECE,5.32,0
+S0083,Student 0083,CSE,6.97,0
+S0567,Student 0567,Computer Science,6.45,0
+S0336,Student 0336,MECH,9.05,0
+S0305,Student 0305,EEE,7.89,3
+S0230,Student 0230,ECE,9.54,0
+S0554,Student 0554,Aeronautical,,4
+S0302,Student 0302,MECH,8.3,0
+S0164,Student 0164,EEE,7.28,2
+S0426,Student 0426,EEE,5.85,0
+S0524,Student 0524,ECE,6.81,0
+S0548,Student 0548,eee,7.09,0
+S0403,Student 0403,C.S.E,7.46,1
+S0046,Student 0046,Electrical,7.52,0
+S0272,Student 0272,MECH,7.97,2
+S0526,Student 0526,C.S.E,7.28,0
+S0103,Student 0103,MECH,8.4,0
+S0134,Student 0134,ece,8.97,0
+S0204,Student 0204,CIVIL,8.24,0
+S0275,Student 0275,ECE,5.96,1
+S0188,Student 0188,it,7.59,0
+S0401,Student 0401,Information Technology,6.79,0
+S0132,Student 0132,EEE,7.87,1
+S0191,Student 0191,it,7.39,0
+S0377,Student 0377,Comp Sci,7.37,4
+S0118,Student 0118,Electronics & Communication,7.96,0
+S0390,Student 0390,it,7.58,4
+S0537,Student 0537,ECE,,0
+S0373,Student 0373,EEE,6.56,
+S0140,Student 0140,CSE,6.07,0
+S0546,Student 0546,MECH,6.59,0
+S0543,Student 0543,IT,5.84,3
+S0207,Student 0207,Electronics & Communication,9.14,0
+S0402,Student 0402,Civil,7.68,0
+S0591,Student 0591,IT,7.9,0
+S0323,Student 0323,CIVIL,8.88,3
+S0473,Student 0473,eee,6.88,0
+S0304,Student 0304,ECE,5.75,4
+S0271,Student 0271,Electronics,7.18,0
+S0311,Student 0311,CSE,7.54,
+S0210,Student 0210,EEE,6.98,0
+S0535,Student 0535,CSE,5.83,0
+S0073,Student 0073,CSE,5.96,two
+S0212,Student 0212,ECE,7.23,0
+ s0349,Student 0349,CSE,6.99,1
+S0550,Student 0550,cse,8.47,2
+S0127,Student 0127,EEE,9.25,0
+S0133,Student 0133,MECH,7.55,0
+S0536,Student 0536,MECH,7.18,2
+S0262,Student 0262,ECE,5.71,0
+S0552,Student 0552,CSE,6.12,0
+S0122,Student 0122,Mechanical Engineering,8.35,0
+S0291,Student 0291,Mechanical Engineering,7.58,0
+S0190,Student 0190,it,7.0,0
+S0500,Student 0500,Mechanical Engineering,7.4,0
+S0397,Student 0397,Computer Science,7.09,0
+S0345,Student 0345,Mechanical Engineering,8.73,1
+S0324,Student 0324,Electronics & Communication,7.67,1
+S0504,Student 0504,IT,7.65,0
+S0056,Student 0056,Electronics,8.02,1
+ s0594,Student 0594,ECE,8.18,4
+S0501,Student 0501,CIVIL,6.63,1
+S0313,Student 0313,CSE,6.85,2
+ s0478,Student 0478,ECE,7.24,2
+S0595,Student 0595,it,8.05,4
+S0018,Student 0018,CIVIL,7.7,0
+S0439,Student 0439,EEE,6.01,3
+S0422,Student 0422,IT,7.71,0
+S0370,Student 0370,ECE,8.02,0
+ s0028,Student 0028,CIVIL,7.78,0
+S0186,Student 0186,ece,7.91,4
+S0292,Student 0292,MECH,6.14,0
+S0167,Student 0167,cse,6.63,4
+ s0544,Student 0544,IT,9.09,0
+S0418,Student 0418,CSE,6.03,
+S0499,Student 0499,ece,6.31,
+S0475,Student 0475,EEE,7.01,0
+S0530,Student 0530,CSE,6.97,0
+S0598,Student 0598,CSE,6.84,-1
+S0077,Student 0077,IT,6.78,0
+S0023,Student 0023,IT,7.78,3
+S0166,Student 0166,CIVIL,6.84,0
+S0092,Student 0092,CSE,6.94,2
+S0195,Student 0195,Civil Engineering,7.62,0
+S0404,Student 0404,??,7.5,0
+S0058,Student 0058,it,7.15,2
+S0097,Student 0097,MECH,7.77,2
+S0243,Student 0243,ECE,7.6,0
+S0358,Student 0358,I.T.,5.99,0
+S0513,Student 0513,CSE,7.11,0
+S0173,Student 0173,Computer Science,7.1,0
+S0293,Student 0293,EEE,6.74,3
+S0086 ,Student 0086,MECH,6.42,0
+S0277,Student 0277,ECE,8.04,4
+S0492,Student 0492,,5.68,0
+S0420,Student 0420,CIVIL,7.04,3
+S0034,Student 0034,MECH,6.75,0
+S0160,Student 0160,CIVIL,7.51,0
+S0427,Student 0427,CSE,7.88,4
+S0508,Student 0508,Information Technology,7.21,0
+S0237,Student 0237,CSE,5.97,3
+S0467,Student 0467,cse,7.09,0
+S0079,Student 0079,ECE,9.31,0
+S0380,Student 0380,ECE,6.79,0
+S0290,Student 0290,Civil,6.53,0
+S0202,Student 0202,CSE,,0
+S0360,Student 0360,MECH,7.43,0
+S0388,Student 0388,CIVIL,7.38,0
+S0406,Student 0406,ECE,,0
+S0041,Student 0041,CSE,8.95,0
+S0451,Student 0451,CIVIL,6.03,3
+S0151,Student 0151,ece,7.03,0
+S0076,Student 0076,ECE,7.3,0
+S0131,Student 0131,EEE,6.45,0
+S0260,Student 0260,Electrical,7.03,-1
+S0136,Student 0136,ECE,7.57,0
+S0423,Student 0423,C.S.E,7.01,3
+S0545 ,Student 0545,Electronics & Communication,7.99,0
+S0121,Student 0121,EEE,7.8,0
+S0158,Student 0158,Mech,8.7,3
+S0099,Student 0099,IT,5.3,2
+S0205 ,Student 0205,MECH,5.81,0
+S0348,Student 0348,it,7.34,0
+S0094,Student 0094,CSE,-1,2
+S0206,Student 0206,Electronics & Communication,6.1,0
+S0568,Student 0568,Electrical and Electronics,7.4,2
+S0176,Student 0176,CSE,6.5,0
+S0222,Student 0222,Civil,7.88,1
+S0479,Student 0479,EEE,7.94,4
+S0579,Student 0579,CSE,7.18,0
+S0448,Student 0448,MECH,6.55,3
+S0577,Student 0577,??,5.67,0
+S0225,Student 0225,EEE,7.75,0
+S0412,Student 0412,Electrical,5.09,0
+S0371,Student 0371,cse,8.34,0
+S0057,Student 0057,EEE,7.65,0
+S0416,Student 0416,ECE,5.96,0
+S0411,Student 0411,Civil,7.66,0
+S0048,Student 0048,ece,7.16,0
+S0364,Student 0364,Electrical and Electronics,6.39,0
+S0480,Student 0480,ECE,7.64,1
+S0484,Student 0484,Electronics,6.78,1
+S0556,Student 0556,MECH,6.43,0
+S0384,Student 0384,ECE,8.13,0
+S0584,Student 0584,CSE,7.03,0
+S0448,Student 0448,MECH,,3
+S0248,Student 0248,Electrical and Electronics,5.32,4
+S0171,Student 0171,MECH,7.57,0
+S0265,Student 0265,Electronics & Communication,6.45,0
+S0476,Student 0476,CSE,N/A,2
+S0392,Student 0392,CSE,8.35,0
+S0270,Student 0270,CIVIL,6.19,0
+S0286,Student 0286,CSE,6.95,3
+S0135,Student 0135,CIVIL,7.59,0
+S0214,Student 0214,EEE,5.7,2
+S0463,Student 0463,IT,5.96,0
+S0282,Student 0282,Comp Sci,8.99,0
+S0433,Student 0433,Electrical and Electronics,7.26,0
+S0088,Student 0088,C.S.E,6.62,0
+S0106,Student 0106,IT,6.65,2
+S0128,Student 0128,IT,8.56,2
+S0547,Student 0547,Computer Science,7.59,3
+S0052,Student 0052,Electronics & Communication,9.35,0
+S0142,Student 0142,cse,7.01,
+S0378,Student 0378,EEE,6.04,3
+S0333,Student 0333,IT,6.21,0
+S0027,Student 0027,Electrical,6.01,0
+S0350,Student 0350,CSE,6.88,0
+S0268,Student 0268,Mech,8.18,0
+S0236,Student 0236,MECH,8.41,0
+S0356,Student 0356,ECE,6.56,-1
+S0389,Student 0389,,8.72,2
+S0357,,CSE,N/A,0
+S0199,Student 0199,CSE,,0
+S0582,Student 0582,MECH,6.6,
+S0259,Student 0259,ECE,8.09,0
+S0098,Student 0098,Electrical and Electronics,5.3,0
+S0129,Student 0129,CSE,7.24,1
+S0161,Student 0161,Computer Science,7.48,0
+S0169 ,Student 0169,Electronics & Communication,7.56,0
+S0154,Student 0154,CIVIL,5.84,0
+S0089,Student 0089,EEE,7.91,0
+S0342,Student 0342,Comp Sci,6.65,0
+S0067,Student 0067,Electronics,9.9,0
+ s0266,Student 0266,MECH,5.17,0
+S0518,Student 0518,Comp Sci,6.24,0
+S0019,Student 0019,eee,7.97,0
+S0234,Student 0234,MECH,7.53,0
+S0180,Student 0180,ece,9.53,4
+S0482,Student 0482,Electronics & Communication,7.56,0
+S0224,Student 0224,MECH,6.5,0
+S0254,Student 0254,EEE,5.45,2
+S0527,Student 0527,CSE,6.46,1
+S0335,Student 0335,IT,8.5,0
+S0506,Student 0506,ECE,6.76,0
+S0138,Student 0138,MECH,6.12,0
+S0329,Student 0329,EEE,6.21,0
+ s0263,Student 0263,CSE,-1,0
+S0432,Student 0432,CSE,7.32,0
+ s0042,Student 0042,Electronics & Communication,5.52,0
+S0279,Student 0279,EEE,7.19,0
+S0087,Student 0087,MECH,7.17,0
+S0261,Student 0261,CIVIL,5.74,0
+S0477,Student 0477,Comp Sci,6.25,0
+S0410,Student 0410,CSE,6.94,0
+S0150,Student 0150,MECH,,2
+S0241,Student 0241,Civil Engineering,6.79,0
+S0493,Student 0493,MECH,9.33,3
+S0459,Student 0459,C.S.E,6.58,2
+S0006,Student 0006,CSE,8.57,0
+S0575,Student 0575,CSE,6.65,0
+S0267,Student 0267,Information Technology,7.95,0
+S0156,Student 0156,CSE,7.73,0
+S0369,Student 0369,EEE,6.51,
+S0217,Student 0217,IT,7.19,0
+S0502,Student 0502,IT,8.03,0
+S0258,Student 0258,Mechanical Engineering,7.11,1
+S0516,Student 0516,Electronics & Communication,7.83,two
+S0255,Student 0255,ECE,8.35,0
+S0113,Student 0113,eee,6.67,0
+S0213,Student 0213,CSE,6.78,0
+S0355,Student 0355,ECE,6.39,0
+S0374,Student 0374,EEE,7.07,2
+S0494,Student 0494,EEE,8.39,4
+S0554,Student 0554,Aeronautical,8.21,4
+S0037,Student 0037,MECH,6.77,0
+S0496,Student 0496,Electrical,7.6,0
+S0183,Student 0183,IT,5.5,0
+S0064,Student 0064,Computer Science,6.71,0
+S0444,Student 0444,IT,8.39,0
+ s0102,Student 0102,Aeronautical,6.61,4
+S0574,Student 0574,IT,6.96,0
+S0341,Student 0341,CIVIL,6.45,0
+S0287,Student 0287,EEE,7.44,0
+S0172,Student 0172,ECE,5.96,
+S0105,Student 0105,MECH,7.65,4
+S0219,Student 0219,Electrical and Electronics,8.3,0
+S0283,Student 0283,Mechanical Engineering,7.37,
+S0338,Student 0338,ece,5.38,0
+S0013,Student 0013,EEE,7.91,0
+S0447,Student 0447,Information Technology,7.21,0
+S0294,Student 0294,CSE,6.3,0
+S0393,Student 0393,EEE,6.86,0
+S0454,Student 0454,CSE,7.18,0
+S0059,Student 0059,Computer Science,6.66,0
+S0036,Student 0036,Civil,7.27,1
+S0325,Student 0325,CIVIL,7.81,0
+S0438,,MECH,N/A,0
+S0080,Student 0080,eee,6.19,0
+S0031,Student 0031,ECE,6.19,0
+S0038,Student 0038,??,8.56,1
+S0597,Student 0597,??,5.79,0
+S0029,Student 0029,Electronics & Communication,7.27,0
+S0522,Student 0522,,7.58,2
+S0245,Student 0245,Computer Science,7.48,0
+S0469,Student 0469,IT,4.5,0
+S0537,Student 0537,ECE,4.5,0
+S0284,Student 0284,CSE,5.7,0
+S0521,Student 0521,CSE,8.73,4
+S0295,Student 0295,it,7.88,3
+S0437,Student 0437,EEE,7.96,0
+S0520,Student 0520,EEE,6.86,0
+S0035,Student 0035,IT,7.24,3
+S0396,Student 0396,EEE,5.29,0
+S0242,Student 0242,ECE,8.71,0
+S0424,Student 0424,Mech,7.61,0
+S0343,Student 0343,CSE,8.7,0
+S0375,Student 0375,Comp Sci,7.6,0
+S0362,Student 0362,Electronics,7.22,
+S0312,Student 0312,MECH,8.59,0
+S0216,Student 0216,CSE,6.8,0
+S0220 ,Student 0220,CSE,6.78,0
+S0497,Student 0497,CSE,7.56,0
+S0488,Student 0488,CSE,7.1,3
+ s0042,Student 0042,Electronics & Communication,5.52,0
+S0054,Student 0054,CSE,6.81,0
+S0321,Student 0321,EEE,5.48,0
+S0101,Student 0101,cse,7.39,0
+S0181,Student 0181,Information Technology,6.31,0
+S0443,Student 0443,Computer Science,8.25,1
+S0315,Student 0315,IT,8.49,0
+S0061,Student 0061,Electronics,8.01,0
+S0007,Student 0007,MECH,9.01,0
+S0008,Student 0008,it,,0
+S0126,Student 0126,IT,4.76,0
+S0560,Student 0560,CIVIL,9.04,4
+S0549,Student 0549,MECH,7.03,0
+S0149,Student 0149,ECE,7.99,0
+S0361,Student 0361,??,6.14,0
+S0170,Student 0170,Information Technology,6.55,0
+S0146 ,Student 0146,Electronics,7.6,0
+S0039,Student 0039,Electronics & Communication,,0
+S0247,Student 0247,CSE,6.91,0
+S0239,Student 0239,cse,9.41,0
+S0569,Student 0569,CSE,8.52,3
+S0322,Student 0322,CSE,7.46,0
+S0334,Student 0334,ECE,7.5,0
+S0198,Student 0198,CSE,7.0,4
+S0470,Student 0470,CIVIL,8.31,0
+S0120,Student 0120,EEE,6.0,0
+S0070,Student 0070,Electrical and Electronics,6.94,0
+S0112,Student 0112,CSE,9.51,0
+S0177,Student 0177,EEE,5.52,4
+S0147,Student 0147,ECE,8.29,0
+S0589,Student 0589,ECE,6.87,0
+S0117,Student 0117,EEE,6.78,3
+S0481,Student 0481,CSE,7.04,0
+S0319,Student 0319,MECH,7.27,0
+S0297,Student 0297,C.S.E,7.22,3
+S0231,Student 0231,IT,8.2,0
+S0376,Student 0376,Mech,7.73,0
+S0159,Student 0159,MECH,5.57,0
+S0587,Student 0587,Computer Science,6.82,0
+S0414,Student 0414,ECE,5.48,0
+S0489,Student 0489,CSE,6.8,0
+S0264,,CSE,6.45,1
+S0523,Student 0523,IT,6.75,3
+S0514,Student 0514,CSE,8.15,0
+S0460,Student 0460,CIVIL,6.48,0
+S0347,Student 0347,EEE,7.99,3
+S0365,Student 0365,Electronics & Communication,7.96,0
+S0583,Student 0583,ECE,6.27,1
+S0372,Student 0372,MECH,6.0,0
+S0075,,Electronics & Communication,7.6,0
+S0193,Student 0193,??,7.14,0
+S0445,Student 0445,C.S.E,,0
+S0221,Student 0221,Electronics,6.87,0
+S0175,Student 0175,Aeronautical,8.06,0
+S0332,Student 0332,Electronics,8.16,4
+S0298,Student 0298,CIVIL,7.42,0
+S0363,Student 0363,Aeronautical,6.74,0
+S0399,Student 0399,CSE,6.49,1
+S0012,Student 0012,Comp Sci,5.97,0
+S0534,Student 0534,ECE,6.58,0
+S0030,Student 0030,C.S.E,N/A,0
+S0002,Student 0002,EEE,7.33,0
+S0487,Student 0487,Civil Engineering,6.39,0
+S0369,Student 0369,EEE,,
+S0044,Student 0044,ECE,6.68,0
+S0250,Student 0250,ECE,8.25,0
+S0421,Student 0421,Civil,6.34,0
+S0251,Student 0251,CSE,6.78,0
+S0462,Student 0462,MECH,6.94,0
+S0450,Student 0450,ECE,6.18,3
+S0454,Student 0454,CSE,7.18,0
+S0109,Student 0109,EEE,4.92,0
+S0125,Student 0125,Aeronautical,7.89,1
+S0330,Student 0330,ece,8.12,0
+S0486,Student 0486,CIVIL,7.1,0
+S0296,Student 0296,Electronics,7.87,3
+S0055,Student 0055,ECE,8.42,0
+S0025,Student 0025,MECH,6.85,0
+S0503,Student 0503,IT,7.21,0
+S0344,Student 0344,MECH,8.41,0
+S0049,Student 0049,CSE,6.5,0
+S0215,Student 0215,ECE,5.81,2
+S0405,Student 0405,??,5.75,2
+S0078,Student 0078,CSE,6.44,0
+S0453,Student 0453,ECE,7.83,0
+S0004,Student 0004,CSE,7.74,0
+S0498,Student 0498,EEE,6.24,0
+S0400,Student 0400,EEE,4.88,0
+S0273,Student 0273,CSE,9.9,0
+S0436,Student 0436,Comp Sci,6.72,1
+S0461,Student 0461,Electrical and Electronics,7.25,0
+S0528,Student 0528,ECE,7.63,0
+S0442,Student 0442,CIVIL,5.73,0
+S0301,Student 0301,Civil Engineering,6.81,0
+S0121,Student 0121,EEE,7.8,0
+S0063,Student 0063,CIVIL,7.55,0
+S0512,Student 0512,ECE,6.22,4
+S0017,Student 0017,IT,,0
+S0385,Student 0385,Mechanical Engineering,8.07,2
+S0182,Student 0182,IT,11.5,0
+S0065,Student 0065,Computer Science,5.09,0
+S0472,Student 0472,Civil,6.32,3
+S0203,Student 0203,Comp Sci,7.96,-1
+S0003,Student 0003,Mech,8.09,-1
+S0244,Student 0244,Electrical and Electronics,7.71,0
+S0108,Student 0108,cse,,3
+S0135,Student 0135,CIVIL,7.59,0
+S0196,Student 0196,IT,6.47,2
+S0208,Student 0208,EEE,4.86,0
+S0588,Student 0588,MECH,6.98,0
+S0540,Student 0540,Electrical and Electronics,7.98,0
+S0124,Student 0124,ECE,5.87,0
+S0515,Student 0515,ECE,6.66,0
+S0474,Student 0474,it,5.98,0
+S0062,Student 0062,CIVIL,6.23,1
+S0091,Student 0091,eee,7.34,0
+S0394,Student 0394,Aeronautical,8.77,3
+S0278,Student 0278,IT,7.16,0
+S0238,Student 0238,ECE,5.89,0
+S0209,Student 0209,EEE,7.85,0
+S0564,Student 0564,CIVIL,8.98,0
+S0155,Student 0155,EEE,8.11,2
+S0014,Student 0014,Aeronautical,6.58,0
+S0068,Student 0068,EEE,6.33,0
+S0458,Student 0458,EEE,6.47,1
+S0457,Student 0457,eee,8.37,0
+S0449,Student 0449,IT,7.53,0
+S0446,Student 0446,Civil Engineering,7.81,0
+S0152,Student 0152,Electrical and Electronics,8.34,2
+S0249,Student 0249,Electronics,6.49,0
+S0585,Student 0585,ece,6.69,-1
+S0081,Student 0081,C.S.E,6.05,0
+S0227,Student 0227,cse,6.68,0
+S0047,Student 0047,IT,8.65,0
+S0502,Student 0502,IT,8.03,0
+S0317,Student 0317,CSE,7.2,0
+S0354,Student 0354,CSE,8.59,0
+S0452,Student 0452,MECH,7.23,1
+S0095,Student 0095,ECE,7.87,0
+S0201,Student 0201,CIVIL,5.36,0
+S0223,Student 0223,CIVIL,6.83,0
+S0310,Student 0310,,7.98,4
+S0465,Student 0465,MECH,6.1,0
+S0592,,ECE,7.21,1
+S0011,Student 0011,MECH,7.04,4
+S0551,Student 0551,CSE,6.61,0
+S0018,Student 0018,CIVIL,7.7,0
+S0116,Student 0116,IT,7.14,0
+S0199,Student 0199,CSE,8.02,0
+S0269,Student 0269,C.S.E,8.16,0
+S0072,Student 0072,CIVIL,7.16,0
+S0495,Student 0495,EEE,9.26,0
+S0539,Student 0539,CIVIL,N/A,3
+S0328,Student 0328,EEE,7.71,0
+S0542,Student 0542,MECH,6.95,4
+S0043,Student 0043,MECH,7.25,0
+S0435,Student 0435,Civil Engineering,5.51,0
+S0483,Student 0483,MECH,,2
+S0093,Student 0093,EEE,6.2,0
+S0184,Student 0184,ECE,6.03,0
+S0297,Student 0297,C.S.E,7.22,3
+S0308,Student 0308,EEE,6.6,
+S0346,Student 0346,EEE,4.96,0
+S0509,Student 0509,CIVIL,4.59,0
+S0407,Student 0407,CSE,6.71,4
+S0318,Student 0318,Computer Science,7.82,0
+S0074,Student 0074,CSE,6.36,2
+S0337,,CSE,7.07,0
+S0517,Student 0517,MECH,6.22,0
+S0110,Student 0110,Civil Engineering,8.86,0
+S0391,Student 0391,ECE,6.49,3
+S0123,Student 0123,CSE,7.5,0
+S0032,Student 0032,IT,8.09,0
+S0232,Student 0232,CIVIL,7.01,0
+S0531,Student 0531,Electronics,6.89,0
+S0563,Student 0563,ECE,9.43,0
+S0143,Student 0143,IT,6.67,0
+S0084,Student 0084,IT,11.5,1
+S0008,Student 0008,it,,0
+S0194,Student 0194,MECH,6.4,0
+S0415,Student 0415,cse,5.59,0
+S0532,Student 0532,Mechanical,5.5,0
+S0256,Student 0256,Mech,7.47,4
+S0428,Student 0428,CSE,7.57,0
+S0090,Student 0090,CIVIL,6.25,0
+S0197,Student 0197,IT,8.45,0
+S0327,Student 0327,MECH,6.95,0
+S0570,Student 0570,CSE,,0
+S0300,,Aeronautical,5.24,0
+S0490,Student 0490,CSE,8.37,2
+S0434,Student 0434,CSE,8.24,1
+S0529,Student 0529,EEE,8.49,0
+S0235,Student 0235,MECH,7.56,4
+S0162,Student 0162,CSE,7.12,2
+S0174,Student 0174,Electronics,7.07,0
+S0274,Student 0274,Civil Engineering,,0
+S0168,Student 0168,Civil,8.59,0
+S0111,Student 0111,CIVIL,8.31,0
+S0541,Student 0541,CSE,6.53,3
+S0253,Student 0253,EEE,6.69,0
+S0351,Student 0351,IT,6.64,0
+S0339,Student 0339,IT,7.87,0
+S0114,Student 0114,IT,8.46,0
+S0316,Student 0316,MECH,8.92,0
+S0130,Student 0130,Electronics,8.33,2
+S0466,Student 0466,EEE,6.65,0
+S0082,Student 0082,IT,6.92,0
+S0281,Student 0281,MECH,7.42,0
+S0033,Student 0033,Civil,6.99,3
+S0005,Student 0005,Computer Science,7.66,0
+S0538,Student 0538,IT,5.88,4
+S0218,Student 0218,CSE,5.9,0
+S0179,Student 0179,I.T.,7.27,0
+ s0544,Student 0544,IT,,0
+S0145,Student 0145,EEE,8.14,0
+S0570,Student 0570,CSE,5.52,0
+S0189,Student 0189,ECE,6.17,3
+S0289,Student 0289,CIVIL,7.57,two
+S0010,Student 0010,MECH,7.58,0
+S0599,Student 0599,ECE,7.1,0
+S0185,Student 0185,C.S.E,11.5,0
+S0511,Student 0511,Electronics,8.28,0
+S0571,Student 0571,CSE,7.76,0
+S0309,Student 0309,CIVIL,6.56,0
+S0276,Student 0276,CSE,9.9,0
+S0303,Student 0303,Electronics & Communication,6.41,4
+S0408,Student 0408,CSE,5.89,0
+S0165,Student 0165,EEE,8.75,2
+S0562,Student 0562,MECH,8.73,0
+S0491,Student 0491,cse,5.67,0
+S0200,Student 0200,IT,7.26,3
+S0288,Student 0288,Civil,7.68,0
+S0525,Student 0525,ECE,5.92,0
+S0021,Student 0021,Electrical and Electronics,8.15,0
+S0226,Student 0226,EEE,6.88,0
+S0367,Student 0367,IT,5.05,0
+S0144,Student 0144,cse,8.33,0
+S0060,Student 0060,ECE,7.08,1
+S0307,Student 0307,Electronics & Communication,9.07,0
+S0071,Student 0071,ECE,-1,0
+S0429,Student 0429,IT,8.2,4
+S0075,,Electronics & Communication,7.6,0
+S0096,Student 0096,CSE,6.06,0
+S0425,Student 0425,IT,7.94,0
+S0565,Student 0565,Aeronautical,9.01,0
+S0148,Student 0148,MECH,6.45,4
+S0326 ,Student 0326,EEE,6.34,0
+S0409,Student 0409,EEE,8.55,4
+S0085,Student 0085,,5.02,0
+S0045,Student 0045,MECH,6.59,0
+S0455,Student 0455,IT,5.7,0
+S0381,Student 0381,Information Technology,8.32,0
+ s0280,Student 0280,Electronics,11.5,3
+S0464,Student 0464,Civil,6.64,0
+S0240,Student 0240,CSE,7.09,4
+S0247,Student 0247,CSE,6.91,0
+S0471,Student 0471,CSE,7.86,4
+S0431,Student 0431,ECE,8.4,0
+S0322,Student 0322,CSE,,0
+S0398,Student 0398,EEE,6.79,0
+S0050,Student 0050,CSE,8.33,0
+S0069,Student 0069,IT,8.49,0
+S0387,Student 0387,CSE,7.63,3
+S0016,Student 0016,IT,7.02,0
+S0440,Student 0440,CSE,5.96,0
+S0557,Student 0557,it,8.79,0
+S0533,Student 0533,ECE,7.0,0
+S0157,Student 0157,CSE,6.41,0
+S0368,Student 0368,Civil Engineering,8.66,0
+S0306,Student 0306,CSE,6.0,0
+S0051,Student 0051,EEE,7.49,1
+S0581,Student 0581,ECE,6.84,0
+S0441,Student 0441,IT,6.02,0
+S0430,Student 0430,CSE,7.51,4
+S0001,Student 0001,EEE,7.99,0
+S0192,Student 0192,EEE,8.79,2
+S0285,Student 0285,CSE,7.26,0
+S0558,Student 0558,C.S.E,7.82,1
+S0022,Student 0022,C.S.E,5.76,0
+S0314,Student 0314,ece,7.05,2
+S0586,Student 0586,ECE,6.95,0
+S0382,Student 0382,Electronics,7.61,0
+S0505,Student 0505,CSE,7.59,0
+S0030,Student 0030,C.S.E,,0
+S0331,Student 0331,Mechanical,8.3,2
+S0566,Student 0566,CSE,6.47,0
+S0340,Student 0340,Mech,7.85,1
+S0327,Student 0327,MECH,6.95,0
+S0015,Student 0015,MECH,9.16,4
+S0590,Student 0590,Mechanical,7.29,4
+S0413,Student 0413,ECE,7.41,0
+S0246,Student 0246,MECH,5.26,0
+S0257,Student 0257,CSE,7.35,-1
+S0456,Student 0456,Electronics & Communication,7.73,0
+S0131,Student 0131,EEE,,0
+S0100,Student 0100,CIVIL,6.45,0
+S0150,Student 0150,MECH,,2
+S0119,Student 0119,Aeronautical,6.79,0
+S0600,Student 0600,CSE,6.5,0
+S0572,Student 0572,IT,7.88,0
+S0476,Student 0476,CSE,N/A,2
+S0233,Student 0233,,6.65,0
+S0026,Student 0026,EEE,6.77,0
+S0573,Student 0573,MECH,8.01,1
+S0510,Student 0510,IT,7.11,0
+S0353,Student 0353,MECH,8.14,0
+S0228,Student 0228,MECH,,0
+S0395,Student 0395,CSE,6.05,0
+S0024,Student 0024,Comp Sci,9.52,0
+S0229,Student 0229,EEE,6.63,1

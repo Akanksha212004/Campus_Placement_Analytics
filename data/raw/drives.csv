@@ -1,0 +1,22 @@
+drive_id,company_id,drive_date,role,ctc_lpa,min_cgpa,max_backlogs,allowed_branches
+D001,C001,2025-12-27,Software Engineer,7.11,7.5,0,"CSE, IT, ece, EEE"
+D002,C001,2025-10-12,Software Engineer,7.42,6.5,1,CSE;IT;ECE;EEE
+D003,C002,2025-09-27,Software Engineer,11.47,6.0,0,cse|IT|Electronics|Electrical and Electronics
+D004,C003,2025-11-25,Software Engineer,8.73,6.0,0,"CSE, it, Electronics, eee"
+D005,C003,2025-10-01,Software Engineer,4.07,8.0,0,CSE;IT;ECE;EEE
+D006,C004,2025-12-02,Software Engineer,8.58,6.0,0,CSE;IT;ECE;EEE
+D007,C005,2025-08-21,Software Engineer,6.92,6.5,0,"Computer Science, IT, ece, EEE"
+D008,C005,2025-08-24,Software Engineer,4.69,7.0,0,C.S.E|Information Technology|Electronics & Communication|Electrical
+D009,C006,04-Jan-2026,Software Engineer,6.21,8.0,1,"C.S.E, Information Technology, ECE, EEE"
+D010,C007,2025-10-09,SDE,21.04,6.5,0,CSE;IT;ECE
+D011,C007,2025-11-23,SDE,21.01,6.0,0,"CSE, I.T., ece"
+D012,C008,2025-11-27,SDE,26.12,6.0,1,CSE|IT|Electronics
+D013,C009,15/11/2025,Graduate Engineer Trainee,10.18,7.0,2,"Mechanical Engineering, CIVIL, EEE, Electronics & Communication"
+D014,C009,2025-11-22,Graduate Engineer Trainee,4.77,7.5,0,"Mechanical, Civil Engineering, eee, ece"
+D015,C010,2025-12-25,Graduate Engineer Trainee,7.52,6.5,1,MECH|Civil Engineering|Electrical|ECE
+D016,C011,2025-09-15,Graduate Engineer Trainee,10.35,6.0,2,MECH;CIVIL;EEE;ECE
+D017,C011,2025-11-24,Graduate Engineer Trainee,8.24,6.5,2,Mechanical|Civil Engineering|EEE|Electronics
+D018,C012,11-Oct-2025,Software Engineer,5.67,7.0,0,"cse, Information Technology, ece, Electrical"
+D901,C001,2025-09-15,Analyst,5.0,,1,CSE|IT
+D902,C999,2025-09-20,Analyst,5.0,7.0,1,CSE
+D903,C002,31/02/2025,Analyst,5.0,7.0,1,CSE
