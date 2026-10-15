@@ -55,10 +55,15 @@ three independent layers: closed vocabulary → validation → read-only executi
 deterministic; the Claude parser's client is injectable, so tests simulate bad replies and API outages
 without network access.
 
+**9. A thin UI, no logic in it.**
+`app.py` (Streamlit) is a second front end next to the CLI. It calls only `run_metric()` and
+`answer_question()`, so there is still one definition of every metric and one safety path for questions.
+Streamlit was chosen because it is pure Python and needs no separate frontend build or API layer.
+
 ## What was deliberately left out
-No ORM, orchestrator, vector store, agent framework, web UI or LLM-written narrative. The brief asks for
-a pipeline, SQL metrics and a safe NL feature; anything more is complexity a reviewer would have to
-understand and defend.
+No ORM, orchestrator, vector store, agent framework, REST API or LLM-written narrative. The brief asks for
+a pipeline, SQL metrics and a safe NL feature; the UI is a thin optional layer, and anything beyond that is
+complexity a reviewer would have to understand and defend.
 
 ## Known risks
 Answers are only as good as the cleaning rules (e.g. ~4 % of students are dropped for lacking a branch).

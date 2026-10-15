@@ -2,7 +2,7 @@
 
 Turns messy campus-placement-drive data into analytics-ready SQL tables, computes eligibility /
 participation / selection-funnel metrics **in SQL**, and lets you ask questions in plain English
-through a tightly constrained AI layer.
+through a tightly constrained AI layer. A small Streamlit web UI (`app.py`) and a CLI sit on top.
 
 ## 1. Problem statement
 > Model placement-drive data into analytics-ready tables and create SQL metrics for eligibility,
@@ -38,18 +38,21 @@ data/generate_data.py ──► data/raw/*.csv (6 messy files)
         analytics.py    run_metric(name, branch, company)  ◄── sql/metrics.sql
                                ▲
         nl_query.py     question ─► IntentParser (Claude | rules) ─► validate_intent ─► run_metric
+                               ▲
+        app.py (Streamlit UI) and main.py (CLI) call only run_metric() and answer_question()
 ```
 A longer design note is in [`docs/architecture.md`](docs/architecture.md).
 
 ## 4. Technologies
 Python 3.10+ · pandas (cleaning) · SQLite (stdlib `sqlite3`) · pytest · Anthropic Claude API (optional,
-for the NL parser) · python-dotenv. No web framework, ORM, vector DB or orchestration tool: they would
-add complexity without helping this brief.
+for the NL parser) · python-dotenv · Streamlit (optional web UI, pure Python). No ORM, vector DB or
+orchestration tool: they would add complexity without helping this brief.
 
 ## 5. Project structure
 ```
 campus-placement-analytics/
 ├── README.md  requirements.txt  .env.example  .gitignore  pytest.ini
+├── app.py                      Streamlit web UI (dashboard + question box)
 ├── data/
 │   ├── generate_data.py        synthetic data generator (seeded)
 │   └── raw/                    generated CSVs (committed, 204 KB; regenerated if missing)
@@ -62,10 +65,10 @@ campus-placement-analytics/
 │   ├── database.py             create/load/connect (incl. read-only)
 │   ├── analytics.py            loads metrics.sql, runs metrics by name
 │   ├── nl_query.py             parsers, safety gate, answer_question()
-│   └── main.py                 CLI
+│   └── main.py                 CLI + run_pipeline()
 ├── sql/  schema.sql  metrics.sql
-├── tests/                      25 pytest cases (14 test functions, some parametrised)
-└── docs/architecture.md
+├── tests/                      32 pytest cases (20 test functions, some parametrised)
+└── docs/                       architecture.md, screenshots/
 ```
 
 ## 6. Setup (clean machine)
@@ -84,10 +87,23 @@ python -m src.main ask "What is the participation rate for CSE students?"
 python -m src.main ask "..." --backend rules|claude
 python -m src.main demo-failures          # failure / edge-case demonstration
 python data/generate_data.py --students 1000 --seed 1     # different dataset
+streamlit run app.py                      # web UI at http://localhost:8501
 python -m pytest -v                       # tests
 ```
 **No API key?** Everything works; the NL feature uses the offline rule-based parser. Set
 `ANTHROPIC_API_KEY` in `.env` to use Claude (`NL_BACKEND=auto` picks it automatically).
+
+### Web UI
+`streamlit run app.py` opens a dashboard with five tabs: **Overview** (KPIs, funnel chart, eligible students
+per drive), **Branch-wise**, **Company-wise**, **Data quality** (validation report and cleaning actions) and
+**Ask a question**. Branch/company filters are in the sidebar. If the database does not exist yet, the page
+offers a "Build database" button that runs the whole pipeline.
+
+![Overview](docs/screenshots/overview.png)
+![Ask a question](docs/screenshots/ask_question.png)
+
+The UI contains no SQL: every number comes from `analytics.run_metric()`, and the question box uses the same
+`answer_question()` safety path as the CLI (unsupported or unreliable answers show a warning and no data).
 
 ## 8. Database schema
 Full DDL: [`sql/schema.sql`](sql/schema.sql).
@@ -133,7 +149,7 @@ The model is used for what it is good at, **understanding the question**, and no
 - `IntentParser` is the interface; `RuleBasedIntentParser` is the offline fallback and the deterministic
   test double. The tests also fake the Anthropic client, so no network is ever needed.
 
-## 10. Tests (`python -m pytest -v` → 25 passed)
+## 10. Tests (`python -m pytest -v` → 32 passed)
 | Test | What it proves |
 |---|---|
 | `test_validation_detects_every_injected_problem_type` | validation finds duplicates, missing/invalid values, inconsistent labels, orphan/illogical events |
@@ -150,6 +166,12 @@ The model is used for what it is good at, **understanding the question**, and no
 | `test_model_synonyms_are_resolved_to_real_values` | "Computer Science" / "infosys" → `CSE` / `Infosys` |
 | `test_claude_parser_handles_garbage_and_api_failures` | fake client: JSON wrapped in text OK; garbage → `INVALID_RESPONSE`; API down → `PARSER_ERROR` |
 | `test_nl_connection_is_read_only` | `DELETE` fails on the NL connection; empty question rejected |
+| `test_dashboard_shows_numbers_from_the_database` | UI runs headlessly; KPI cards equal the SQL funnel |
+| `test_sidebar_filter_changes_the_numbers` | choosing a branch changes the UI numbers to the filtered SQL result |
+| `test_example_question_is_answered` | clicking an example question shows an `OK` answer |
+| `test_unsupported_questions_are_refused_in_the_ui` (2 cases) | `UNSUPPORTED` / `UNKNOWN_ENTITY` shown, no rows returned |
+| `test_claude_choice_without_api_key_fails_safely` | no key -> `PARSER_ERROR` message, no crash |
+| `test_missing_database_offers_to_build_it` | empty setup shows the "Build database" button |
 
 **Edge-case demonstration:** `python -m src.main demo-failures` (structural failure + 7 unsafe AI cases).
 
@@ -214,10 +236,11 @@ Q: Funnel   (simulated LLM replies with a SQL-injection string as company)
 - Branch/company aliases are hard-coded in `cleaning.py`; no fuzzy matching.
 - Single batch load; the database is rebuilt on each run (no incremental/merge).
 - Synthetic data uses real company names as labels only; its statistics are not real.
+- The web UI is a read-only single-user dashboard: no login, no editing, Streamlit's development server only.
 
 ## 14. Production improvements
 Incremental loads with upserts and a quarantine table for rejected rows; data-contract checks in CI
 (e.g. Great Expectations/dbt tests); versioned metric definitions; Postgres/warehouse instead of SQLite;
 per-user access control and row-level security; caching, rate limiting and audit logging of questions;
 an evaluation set of questions to track parser accuracy across model versions; fuzzy entity matching
-with a "did you mean…?" reply; a BI dashboard over the same views.
+with a "did you mean…?" reply; replacing the Streamlit prototype with an authenticated web app or BI tool over the same views.
