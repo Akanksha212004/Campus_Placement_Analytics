@@ -32,6 +32,15 @@ SAMPLE_QUESTIONS = [
 ]
 
 
+def ensure_raw_data():
+    """Generate the synthetic CSVs if they are missing (shared by the CLI and the web UI)."""
+    if config.RAW_DIR.joinpath("students.csv").exists():
+        return
+    sys.path.insert(0, str(config.ROOT / "data"))
+    from generate_data import generate
+    print("Raw data not found; generating synthetic data:", generate(config.RAW_DIR))
+
+
 def run_pipeline(raw_dir=config.RAW_DIR, db_path=config.DB_PATH):
     """raw -> ingestion -> validation -> cleaning -> transformation -> SQL tables. Returns a summary."""
     import pandas as pd
@@ -131,10 +140,7 @@ def main(argv=None):
     sub.add_parser("all")
     args = ap.parse_args(argv)
 
-    if not config.RAW_DIR.joinpath("students.csv").exists():
-        sys.path.insert(0, str(config.ROOT / "data"))
-        from generate_data import generate
-        print("Raw data not found; generating synthetic data:", generate(config.RAW_DIR))
+    ensure_raw_data()
 
     if args.cmd in ("pipeline", "all"):
         print_pipeline_summary(run_pipeline())

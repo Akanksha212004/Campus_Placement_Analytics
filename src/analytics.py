@@ -49,6 +49,26 @@ def list_companies(conn):
     return [r[0] for r in conn.execute("SELECT company_name FROM dim_company ORDER BY 1")]
 
 
+def _query(conn, sql):
+    cur = conn.execute(sql)
+    cols = [c[0] for c in cur.description]
+    return [dict(zip(cols, row)) for row in cur.fetchall()]
+
+
+def validation_failures(conn):
+    """Quality checks that found problems in the raw data (from the validation_report table)."""
+    return _query(conn, """SELECT table_name, check_name, failed_rows, total_rows, severity
+                           FROM validation_report WHERE failed_rows > 0
+                           ORDER BY severity, table_name, failed_rows DESC""")
+
+
+def cleaning_summary(conn):
+    """What the cleaning step did, grouped (from the data_quality_issues table)."""
+    return _query(conn, """SELECT table_name, action, COUNT(*) AS records
+                           FROM data_quality_issues GROUP BY table_name, action
+                           ORDER BY table_name, records DESC""")
+
+
 def format_rows(rows):
     """Plain-text table for the CLI."""
     if not rows:
