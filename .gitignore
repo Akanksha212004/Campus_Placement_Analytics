@@ -19,3 +19,6 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+
+# streamlit secrets
+.streamlit/secrets.toml
